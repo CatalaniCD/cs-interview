@@ -11,6 +11,6 @@
 10. Heaps -> Binary Heaps / Binary Trees
 11. Dinamic Programming -> Memoization / Fibonacci
 12. Matching Parenthesis Problem -> Solve by using a stack
-13. Hash Table -> Use of DFS and keep track of visited nodes (Histogram or Dictionary)
+13. Hash Tables -> Use of DFS and keep track of visited nodes (Histogram or Dictionary)
 14. Sorting Algorithms -> Understand Runtime and Why
 15. Custom DataStructure that makes easier to solve a problem -> Generators
