@@ -1,9 +1,9 @@
 # Concepts on Algorithms
 
-1. Logarithmic Time
-2. DFS : Depth First Search
-3. BFS :  Bredth First Search
-5. Binary Search -> O(log_2 n)
+1. Logarithmic Time #
+2. DFS : Depth First Search @
+3. BFS :  Bredth First Search @
+5. Binary Search -> O(log_2 n) #
 6. Manipulate many pointers at the same time -> Sliding window -> use of 2 pointers / longest palindromic substring
 7. Recursion -> Logic of recursion
 8. Inverting a Binary Tree / Linked List
