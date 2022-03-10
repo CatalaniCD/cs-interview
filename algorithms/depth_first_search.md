@@ -51,3 +51,27 @@ def DFS_Shortest_Path(graph, start, end, path = [], shortest = None):
     return shortest
     
 ```
+
+### Cycle Detection with Depth First Search
+
+```python
+
+def DFS_cycle(graph, start, path = []):
+    """ Detect Cycles with a Depth First Search """
+    # append to path
+    path = path + [start]
+    
+    # graph start
+    for node in graph[start]:
+        # check if node != path init        
+        if node not in path:          
+            
+            # return true after termination case
+            if DFS_cycle(graph, node, path):
+                return True      
+            
+        # return true before termination case
+        elif node == path[0]:
+            return True
+            
+```
