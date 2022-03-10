@@ -57,7 +57,6 @@ def DFS_Shortest_Path(graph, start, end, path = [], shortest = None):
 ```python
 
 def DFS_cycle(graph, start, path = []):
-    """ Detect Cycles with a Depth First Search """
     # append to path
     path = path + [start]
     
