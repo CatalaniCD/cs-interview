@@ -1,8 +1,9 @@
 # BFS
 
+**Breadth First Search**
+
 ```python
 def BFS(graph, start, end, path = []):
-    """ Breadth First Search """
     # create the initial path
     initPath = [start]
     # queue of paths
