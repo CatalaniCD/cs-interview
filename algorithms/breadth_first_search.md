@@ -1,7 +1,7 @@
 # BFS
 
 ```python
-def BFS(graph, start, end, path = [], toPrint = False):
+def BFS(graph, start, end, path = []):
     """ Breadth First Search """
     # create the initial path
     initPath = [start]
