@@ -1,6 +1,6 @@
 # Binary Search
 
-### Requirement : Sorted Array
+### Required presorted array
 
 ```python
 
