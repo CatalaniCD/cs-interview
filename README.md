@@ -16,4 +16,3 @@
   
   [**freecodecamp**](https://www.freecodecamp.org)
   
-  [**coding interview - simply learn**](https://www.youtube.com/watch?v=owtO0cKwtk4)
