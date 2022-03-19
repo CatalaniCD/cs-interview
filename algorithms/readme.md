@@ -14,3 +14,6 @@
 13. Hash Tables -> Use of DFS and keep track of visited nodes (Histogram or Dictionary)
 14. Sorting Algorithms -> Understand Runtime and Why
 15. Custom DataStructure that makes easier to solve a problem -> Generators
+
+## Extras
+1. N-ary Tree @
