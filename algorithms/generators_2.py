@@ -29,19 +29,18 @@ elements = ['cat', 'dog', 'bird',
             'worm', 'hawk', 'salmon', 
             'lizard', 'bug', 'chipmunk']
 
-
 def combinations(items = []):
     # posible sets given by a path in a binary tree  
     # with depth equal to the number of items
     L = len(items)
     # number of 2**number of items
     for i in range(2**L):    
-         last = []
+         subset = []
          # cast to a binary with n places
-         for ix, j in enumerate(format(i, 'b').zfill(L)):
-             if j == '1': # include if 1
-                last += [elements[ix]]
-         yield last
+         for index, digit in enumerate(format(i, 'b').zfill(L)):
+             # include if 1
+             if digit == '1': subset += [items[index]]
+         yield subset
          
 allSets = combinations(items = elements)
 
