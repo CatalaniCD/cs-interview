@@ -16,4 +16,5 @@
 15. Custom DataStructure that makes easier to solve a problem -> Generators
 
 ## Extras
-1. N-ary Tree @
+1. N-ary Tree DFS @
+2. N-ary Tree BFS @
