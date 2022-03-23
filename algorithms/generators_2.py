@@ -43,8 +43,24 @@ def combinations(items = []):
          
 allSets = combinations(items = elements)
 
-
 for i in allSets:
+    print(i)
+
+def combinations_bitwise(items = []):
+    # posible sets given by a path in a binary tree  
+    # with depth equal to the number of items
+    L = len(items)
+    for i in range(2**L):
+        subset = []    
+        for j in range(L):
+            # test that LSB is 1 
+            if (i >> j) % 2 == 1:
+                subset.append(items[j])
+        yield subset
+    
+bitwiseSets = combinations_bitwise(items = elements)
+
+for i in bitwiseSets:
     print(i)
 
          
