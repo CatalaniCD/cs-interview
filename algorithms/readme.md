@@ -5,7 +5,7 @@
 3. BFS :  Bredth First Search @
 5. Binary Search -> O(log_2 n) #
 6. Manipulate many pointers at the same time -> Sliding window -> use of 2 pointers / longest palindromic substring
-7. Recursion -> Logic of recursion
+7. Recursion -> Logic of recursion @
 8. Inverting a Binary Tree / Linked List @.5
 9. Suffix Tree
 10. Heaps -> Binary Heaps / Binary Trees
