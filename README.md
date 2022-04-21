@@ -16,6 +16,11 @@
   
   [**freecodecamp**](https://www.freecodecamp.org)
   
+  
+## DataStructures 
+
+  [**DS0**](https://www.youtube.com/watch?v=K_ZuEy9_W_E)
+  
 ## Extra Topics
 
   [**Coding Languages Index**](https://www.tiobe.com/tiobe-index/)
